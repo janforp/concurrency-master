@@ -10,7 +10,8 @@ public class Atomic {
 
     public static void main(String[] args) {
         AtomicInteger integer = new AtomicInteger();
-        boolean b = integer.compareAndSet(1, 2);
-        System.out.println("\n****************** " + b);
+        System.out.println("\n****************** " + integer.get());
+
+
     }
 }
